@@ -21,26 +21,11 @@
 
     </b-navbar>
 
+    <br><br>
     <router-view></router-view>
 
     <b-navbar class="footer" variant="success" toggleable fixed>
-
-      <b-nav-toggle target="nav_collapse"/>
-
-      <router-link  class="navbar-brand" to="/">
-        <span>Student GO 2</span>
-      </router-link >
-
-      <b-collapse isNav id="nav_collapse">
-        <b-nav isNavBar>
-          <b-nav-item>
-            <router-link  to="/sobre">
-              <span>Sobre</span>
-            </router-link >
-          </b-nav-item>
-        </b-nav>
-      </b-collapse>
-
+      conteudo rodape
     </b-navbar>
   </div>
 </template>
@@ -66,5 +51,7 @@ export default {
   bottom: 0;
   left: 0;
   width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
 }
 </style>
