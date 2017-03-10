@@ -1,5 +1,26 @@
 <template>
   <div id="app">
+
+    <b-navbar variant="success" toggleable fixed>
+
+      <b-nav-toggle target="nav_collapse"/>
+
+      <router-link  class="navbar-brand" to="/">
+        <span>Student GO</span>
+      </router-link >
+
+      <b-collapse isNav id="nav_collapse">
+        <b-nav isNavBar>
+          <b-nav-item>
+            <router-link  to="/sobre">
+              <span>Sobre</span>
+            </router-link >
+          </b-nav-item>
+        </b-nav>
+      </b-collapse>
+
+    </b-navbar>
+
     <router-view></router-view>
   </div>
 </template>
@@ -16,7 +37,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+
+* {color: black !important;}
 </style>

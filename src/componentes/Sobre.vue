@@ -1,11 +1,11 @@
 <template>
 	<div>
-		Pergunta
+		Sobre
 	</div>
 </template>
 <script>
 	export default{
-		name: 'sg-pergunta',
+		name: 'sg-sobre'
 	}
 </script>
 <style></style>

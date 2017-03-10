@@ -4,8 +4,8 @@
 	</div>
 </template>
 <script>
-	export default{
-		name: 'sg-inicial'
-	}
+export default {
+	name: 'sg-inicial',
+}
 </script>
 <style></style>

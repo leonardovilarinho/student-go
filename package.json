@@ -10,6 +10,7 @@
     "test": "mocha-webpack --webpack-config webpack.config.js test --recursive --require test/.setup.js"
   },
   "dependencies": {
+    "bootstrap-vue": "^0.9.5",
     "vue": "^2.2.1",
     "vue-router": "^2.3.0",
     "vuex": "^2.2.1"
@@ -28,7 +29,6 @@
     "mocha-webpack": "^0.7.0",
     "vue-loader": "^11.1.4",
     "vue-template-compiler": "^2.2.1",
-    "vuestrap-base-components": "^0.8.10",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"
   }
