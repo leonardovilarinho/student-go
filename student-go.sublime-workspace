@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"perg",
+				"perguntaatual"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"comp",
+				"components"
+			],
+			[
 				"utf",
 				"utf8_encode〔function〕"
 			],
@@ -18,10 +38,6 @@
 			[
 				"url",
 				"urlencode〔function〕"
-			],
-			[
-				"text",
-				"textarea\tTag"
 			],
 			[
 				"for",
@@ -219,6 +235,86 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/componentes/Inicial.vue",
+			"settings":
+			{
+				"buffer_size": 1303,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Inicial.vue"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.vue",
+			"settings":
+			{
+				"buffer_size": 1050,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/componentes/Gerenciador.vue",
+			"settings":
+			{
+				"buffer_size": 1428,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/componentes/Resultado.vue",
+			"settings":
+			{
+				"buffer_size": 2607,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/componentes/Card.vue",
+			"settings":
+			{
+				"buffer_size": 789,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/router.js",
+			"settings":
+			{
+				"buffer_size": 510,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/vuex/mutations.js",
+			"settings":
+			{
+				"buffer_size": 203,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/vuex/state.js",
+			"settings":
+			{
+				"buffer_size": 7443,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -303,10 +399,34 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/leona/Desktop/student-go"
+		"/C/Users/leona/Desktop/student-go",
+		"/C/Users/leona/Desktop/student-go/node_modules/vuestrap-base-components/src",
+		"/C/Users/leona/Desktop/student-go/node_modules/vuestrap-base-components/src/components",
+		"/C/Users/leona/Desktop/student-go/node_modules/vuestrap-base-components/src/components/navbar",
+		"/C/Users/leona/Desktop/student-go/src",
+		"/C/Users/leona/Desktop/student-go/src/componentes",
+		"/C/Users/leona/Desktop/student-go/test"
 	],
 	"file_history":
 	[
+		"/C/Users/leona/Desktop/student-go/docs/perguntas e respostas em cod",
+		"/C/Users/leona/Desktop/student-go/src/router.js",
+		"/C/Users/leona/Desktop/student-go/src/main.js",
+		"/C/Users/leona/Desktop/student-go/src/componentes/Card.vue",
+		"/C/Users/leona/Desktop/student-go/src/App.vue",
+		"/C/Users/leona/Desktop/student-go/src/componentes/Sobre.vue",
+		"/C/Users/leona/Desktop/student-go/src/vuex/state.js",
+		"/C/Users/leona/Desktop/student-go/index.html",
+		"/C/Users/leona/Desktop/student-go/src/componentes/Resultado.vue",
+		"/C/Users/leona/Desktop/student-go/src/componentes/Pergunta.vue",
+		"/C/Users/leona/Desktop/student-go/package.json",
+		"/C/Users/leona/Desktop/student-go/README.md",
+		"/C/Users/leona/Desktop/student-go/test/.setup.js",
+		"/C/Users/leona/Desktop/student-go/test/Test.test.js",
+		"/C/Users/leona/Desktop/student-go/src/vuex/store.js",
+		"/C/Users/leona/Desktop/student-go/src/vuex/mutations.j",
+		"/C/Users/leona/Desktop/student-go/src/vuex/getters.js",
+		"/C/Users/leona/Desktop/student-go/src/vuex/actions.js",
 		"/D/vue-livro/exemplos/02-preparando-ambiente/src/App.vue",
 		"/C/Users/leona/AppData/Roaming/Sublime Text 3/Packages/User/nome.sublime-snippet",
 		"/D/dev/vue/curso/aula01-hello-world/index.html",
@@ -336,7 +456,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -350,6 +470,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"]",
+			"]\n",
+			"[",
+			"1",
+			"pergunta",
+			"Pergunta",
+			"resultado",
+			"Resultado",
+			"Inicial",
+			"Vue",
 			"sfdsfdsfd",
 			"ok",
 			"a",
@@ -387,8 +518,289 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/componentes/Inicial.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								756,
+								756
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "Inicial.vue",
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/App.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1014
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/componentes/Gerenciador.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/componentes/Resultado.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2412,
+								2412
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/componentes/Card.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/vuex/mutations.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/vuex/state.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7437,
+								7437
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4200.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -422,7 +834,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.doc":
 	{
 		"height": 0.0
@@ -448,6 +860,42 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"app",
+				"src\\App.vue"
+			],
+			[
+				"card",
+				"src\\componentes\\Card.vue"
+			],
+			[
+				"resu",
+				"src\\componentes\\Resultado.vue"
+			],
+			[
+				"router",
+				"src\\router.js"
+			],
+			[
+				"mutatio",
+				"src\\vuex\\mutations.js"
+			],
+			[
+				"state",
+				"src\\vuex\\state.js"
+			],
+			[
+				"gerenc",
+				"src\\componentes\\Gerenciador.vue"
+			],
+			[
+				"route",
+				"src\\router.js"
+			],
 			[
 				"app.",
 				"src\\App.vue"
@@ -484,8 +932,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_visible": false,
+	"side_bar_width": 96.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
