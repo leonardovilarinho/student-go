@@ -5,7 +5,7 @@
 		</b-alert>
 		<sg-card titulo="Bem-vindo ao Student GO" :valor="100">
 			<div>
-				<p>
+				<p style="font-size: 16pt">
 					<strong>Student Go</strong> é um projeto avaliativo para discentes, onde o objetivo é elaborar um questionário com perguntas específicas sobre formas de aprendizagens e comportamentos durante os estudos, onde o resultado final em relação as respostas do aluno, implicará em um método de aprendizagem ao qual o mesmo se identifica. Podendo assim, passar a utilizar os métodos e técnicas resultantes do formulário, facilitando-o na sua aprendizagem durante as aulas e estudos autônomos.
 				</p>
 

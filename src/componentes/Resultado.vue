@@ -87,7 +87,10 @@ export default{
 			this.$router.replace('/')
 		},
 		enviar() {
-
+			if(this.nome != '' && this.email != '') {
+				let corpo = `${this.nome} com o email ${this.email} fez o teste e foi captado o resultado: ${this.resultado.titulo}`
+				window.open(`mailto:reane@iftm.edu.br?subject=Resultado Questionário - Perfil Aluno&body=${corpo}`);
+			}
 		}
 	}
 }

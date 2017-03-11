@@ -400,9 +400,6 @@
 	"expanded_folders":
 	[
 		"/C/Users/leona/Desktop/student-go",
-		"/C/Users/leona/Desktop/student-go/node_modules/vuestrap-base-components/src",
-		"/C/Users/leona/Desktop/student-go/node_modules/vuestrap-base-components/src/components",
-		"/C/Users/leona/Desktop/student-go/node_modules/vuestrap-base-components/src/components/navbar",
 		"/C/Users/leona/Desktop/student-go/src",
 		"/C/Users/leona/Desktop/student-go/src/componentes",
 		"/C/Users/leona/Desktop/student-go/test"
@@ -834,7 +831,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.doc":
 	{
 		"height": 0.0
