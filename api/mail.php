@@ -35,14 +35,13 @@ Alunos Visuais se sentem mais confortáveis em aprender fazendo uso da visão e 
 <li>Ao estudar, destacar trechos importantes;</li>
 </ul>
 </div>
-
 </span>';
 
 if(isset($_POST['email']) and isset($_POST['msg'])) {
 
 	$email = $_POST['email'];
 	mail( $email,
-		'[Q-APRENDIZADO] '.$_POST['nome'].' você tem o perfil ' . $_POST['msg'],
+		'[Q-APRENDIZADO] ' . $_POST['nome'] . ' você tem o perfil ' . $_POST['msg'],
 		str_replace('{{resultado}}', $_POST['msg'], $txt)
 	);
 
@@ -52,7 +51,7 @@ if(isset($_POST['msg'])) {
 	$email = isset($_POST['email']) ? $_POST['email'] : '`sem email`';
 	mail('pesquisaxextensao@gmail.com',
 		'[Q-APRENDIZADO] Nova resposta',
-		'Usuário ' $_POST['nome'] . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_POST['msg']);
+		'Usuário ' . $_POST['nome'] . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_POST['msg']);
 }
 
 die( json_encode(['sucesso' => true]) );

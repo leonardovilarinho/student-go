@@ -1,4 +1,4 @@
-import {http} from './configuracao'
+import {http} from './config'
 
 export default {
 	enviar: ({ email, nome, msg }) => {
