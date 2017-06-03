@@ -1,4 +1,7 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 
 $txt = '<span class="txt">
 <div>Primeiramente, agradecemos a você pela disposição e cooperação ao participar da nossa pesquisa, através da sua avaliação vem sendo possível melhorar o trabalho desenvolvido. Diante do estudo desenvolvido conclui que é de suma importância para o aprendizado, que o indivíduo possua informações suficientes para elaborar sua própria maneira de estudo, tais características ficam explicitas nos seguintes perfis de aprendizagem: Auditivo, Sinestésico e/ou Visual, que foram identificados com a participação do público alvo de discentes no IFTM – Campus Ituiutaba, visando o melhor desempenho destes buscamos trazer dicas de estudo presentes em cada personalidade específica.</div>
