@@ -69,7 +69,7 @@ if(isset($_POST['msg'])) {
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	$headers .= 'From: Student-GO <pesquisaxextensao@gmail.com>';
 
-	$msg = 'Usuário ' . $nome . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_POST['msg']);
+	$msg = 'Usuário ' . $nome . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_POST['msg'];
 
 	$enviaremail = mail($destino, $assunto, $msg, $headers);
 		
