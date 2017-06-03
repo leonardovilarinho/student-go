@@ -114,7 +114,7 @@ export default{
 			if(this.nome != '' && this.email != '') {
 				let corpo = `${this.nome} com o email ${this.email} fez o teste e foi captado o resultado: ${this.resultado}`
 				Mail.enviar({email: this.email, nome: this.nome, msg: this.resultado}).then(r => {
-					if(r.sucesso)
+					if(r.data.sucesso)
 						alert('Email foi enviado');
 				})
 			}
