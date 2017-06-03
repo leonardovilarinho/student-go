@@ -41,17 +41,17 @@ Alunos Visuais se sentem mais confortáveis em aprender fazendo uso da visão e 
 </span>';
 $enviaremail = false;
 
-if(isset($_POST['email']) and isset($_POST['msg'])) {
+if(isset($_GET['email']) and isset($_GET['msg'])) {
 
-	$destino = $_POST['email'];
+	$destino = $_GET['email'];
 
-	$assunto = '[Q-APRENDIZADO] ' . $_POST['nome'] . ' você tem o perfil ' . $_POST['msg'];
+	$assunto = '[Q-APRENDIZADO] ' . $_GET['nome'] . ' você tem o perfil ' . $_GET['msg'];
 
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	$headers .= 'From: Student-GO <pesquisaxextensao@gmail.com>';
 
-	$msg = str_replace('{{resultado}}', $_POST['msg'], $txt);
+	$msg = str_replace('{{resultado}}', $_GET['msg'], $txt);
 
 	$enviaremail = mail($destino, $assunto, $msg, $headers);
 
@@ -62,10 +62,10 @@ if(isset($_POST['email']) and isset($_POST['msg'])) {
 		die( json_encode(['sucesso' => false, 'teste1']) );
 }
 
-if(isset($_POST['msg'])) {
+if(isset($_GET['msg'])) {
 
-	$email = isset($_POST['email']) ? $_POST['email'] : '`sem email`';
-	$nome = isset($_POST['nome']) ? $_POST['nome'] : '`sem nome`';
+	$email = isset($_GET['email']) ? $_GET['email'] : '`sem email`';
+	$nome = isset($_GET['nome']) ? $_GET['nome'] : '`sem nome`';
 
 	$destino = 'pesquisaxextensao@gmail.com';
 	$assunto = "[Q-APRENDIZADO] Nova resposta";
@@ -74,7 +74,7 @@ if(isset($_POST['msg'])) {
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	$headers .= 'From: Student-GO <pesquisaxextensao@gmail.com>';
 
-	$msg = 'Usuário ' . $nome . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_POST['msg'];
+	$msg = 'Usuário ' . $nome . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_GET['msg'];
 
 	$enviaremail = mail($destino, $assunto, $msg, $headers);
 

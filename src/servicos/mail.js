@@ -1,7 +1,7 @@
 import {http} from './config'
 
 export default {
-	enviar: ({ email, nome, msg }) => {
-		return http.post('mail.php', {email, nome, msg});
+	enviar: (email, nome, msg) => {
+		return http.get(`mail.php?email=${email}&nome=${nome}&msg=${msg}`);
 	},
 }
