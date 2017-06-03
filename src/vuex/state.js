@@ -11,15 +11,18 @@ export default {
         alternativas: [
             {
                 value: "A",
-                text: "por escrito "
+                text: "por escrito ",
+                checked: false
             },
             {
                 value: "B",
-                text: "oralmente  "
+                text: "oralmente  ",
+          checked: false
             },
             {
                 value: "C",
-                text: "realizando tarefas "
+                text: "realizando tarefas ",
+          checked: false
             }
         ]
     },
@@ -28,15 +31,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "bonito "
+              text: "bonito ",
+          checked: false
             },
             {
               value: "B",
-              text: "sonoro "
+              text: "sonoro ",
+          checked: false
             },
             {
               value: "C",
-              text: "útil "
+              text: "útil ",
+          checked: false
             }
         ]
     },
@@ -45,15 +51,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "A fisionomia "
+              text: "A fisionomia ",
+          checked: false
             },
             {
               value: "B",
-              text: "O nome "
+              text: "O nome ",
+          checked: false
             },
             {
               value: "C",
-              text: "As atitudes "
+              text: "As atitudes ",
+          checked: false
             }
         ]
     },
@@ -62,15 +71,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Lendo "
+              text: "Lendo ",
+          checked: false
             },
             {
               value: "B",
-              text: "Escutando "
+              text: "Escutando ",
+          checked: false
             },
             {
               value: "C",
-              text: "Fazendo "
+              text: "Fazendo ",
+          checked: false
             }
         ]
     },
@@ -79,15 +91,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Fotografia/Pintura "
+              text: "Fotografia/Pintura ",
+          checked: false
             },
             {
               value: "B",
-              text: "Música/Oratória  "
+              text: "Música/Oratória  ",
+          checked: false
             },
             {
               value: "C",
-              text: "Escultura "
+              text: "Escultura ",
+          checked: false
             }
         ]
     },
@@ -96,15 +111,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Observar "
+              text: "Observar ",
+          checked: false
             },
             {
               value: "B",
-              text: "Escutar "
+              text: "Escutar ",
+          checked: false
             },
             {
               value: "C",
-              text: "Fazer "
+              text: "Fazer ",
+          checked: false
             }
         ]
     },
@@ -113,15 +131,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "As cenas  "
+              text: "As cenas  ",
+          checked: false
             },
             {
               value: "B",
-              text: "Os sons  "
+              text: "Os sons  ",
+          checked: false
             },
             {
               value: "C",
-              text: "As sensações "
+              text: "As sensações ",
+          checked: false
             }
         ]
     },
@@ -130,15 +151,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Visitar lugares bonitos "
+              text: "Visitar lugares bonitos ",
+          checked: false
             },
             {
               value: "B",
-              text: "Repousar em lugares silenciosos "
+              text: "Repousar em lugares silenciosos ",
+          checked: false
             },
             {
               value: "C",
-              text: "Participar de atividades "
+              text: "Participar de atividades ",
+          checked: false
             }
         ]
     },
@@ -147,15 +171,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "A aparência "
+              text: "A aparência ",
+          checked: false
             },
             {
               value: "B",
-              text: "O que elas dizem "
+              text: "O que elas dizem ",
+          checked: false
             },
             {
               value: "C",
-              text: "o que elas fazem "
+              text: "o que elas fazem ",
+          checked: false
             }
         ]
     },
@@ -164,15 +191,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Pelo jeito de me olhar "
+              text: "Pelo jeito de me olhar ",
+          checked: false
             },
             {
               value: "B",
-              text: "Pelo jeito que fala comigo "
+              text: "Pelo jeito que fala comigo ",
+          checked: false
             },
             {
               value: "C",
-              text: "Pelas atitudes que manifesta "
+              text: "Pelas atitudes que manifesta ",
+          checked: false
             }
         ]
     },
@@ -181,15 +211,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Novo/Bonito "
+              text: "Novo/Bonito ",
+          checked: false
             },
             {
               value: "B",
-              text: "Silencioso, para poder conversar e ouvir música "
+              text: "Silencioso, para poder conversar e ouvir música ",
+          checked: false
             },
             {
               value: "C",
-              text: "Espaçoso/bem equipado "
+              text: "Espaçoso/bem equipado ",
+          checked: false
             }
         ]
     },
@@ -198,15 +231,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Olhar bem o produto "
+              text: "Olhar bem o produto ",
+          checked: false
             },
             {
               value: "B",
-              text: "Ouvir o vendedor "
+              text: "Ouvir o vendedor ",
+          checked: false
             },
             {
               value: "C",
-              text: "experimentar "
+              text: "experimentar ",
+          checked: false
             }
         ]
     },
@@ -215,15 +251,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Vejo "
+              text: "Vejo ",
+          checked: false
             },
             {
               value: "B",
-              text: "Escuto "
+              text: "Escuto ",
+          checked: false
             },
             {
               value: "C",
-              text: "Sinto "
+              text: "Sinto ",
+          checked: false
             }
         ]
     },
@@ -232,15 +271,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Ajuntamento  "
+              text: "Ajuntamento  ",
+          checked: false
             },
             {
               value: "B",
-              text: "Luminosidade  "
+              text: "Luminosidade  ",
+          checked: false
             },
             {
               value: "C",
-              text: "Barulho "
+              text: "Barulho ",
+          checked: false
             }
         ]
     },
@@ -249,15 +291,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "A iluminação "
+              text: "A iluminação ",
+          checked: false
             },
             {
               value: "B",
-              text: "Eloquência (capacidade de falar e expressar-se com desenvoltura) "
+              text: "Eloquência (capacidade de falar e expressar-se com desenvoltura) ",
+          checked: false
             },
             {
               value: "C",
-              text: "Gesticulação "
+              text: "Gesticulação ",
+          checked: false
             }
         ]
     },
@@ -266,15 +311,18 @@ export default {
             alternativas: [
             {
               value: "A",
-              text: "Observar o ambiente/ler alguma coisa "
+              text: "Observar o ambiente/ler alguma coisa ",
+          checked: false
             },
             {
               value: "B",
-              text: "Ouvir Música/Escutar conversas "
+              text: "Ouvir Música/Escutar conversas ",
+          checked: false
             },
             {
               value: "C",
-              text: "Andar/Mexer com as mãos "
+              text: "Andar/Mexer com as mãos ",
+          checked: false
             }
         ]
     },
@@ -283,15 +331,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Mostram "
+              text: "Mostram ",
+          checked: false
             },
             {
               value: "B",
-              text: "Falam "
+              text: "Falam ",
+          checked: false
             },
             {
               value: "C",
-              text: "Fazem "
+              text: "Fazem ",
+          checked: false
             }
         ]
     },
@@ -300,15 +351,18 @@ export default {
         alternativas: [
             {
               value: "A",
-              text: "Mostrar um caminho "
+              text: "Mostrar um caminho ",
+          checked: false
             },
             {
               value: "B",
-              text: "Levar palavra de conforto "
+              text: "Levar palavra de conforto ",
+          checked: false
             },
             {
               value: "C",
-              text: "Oferecer dinheiro "
+              text: "Oferecer dinheiro ",
+          checked: false
             }
         ]
     },
@@ -317,15 +371,18 @@ export default {
         alternativas: [
         {
           value: "A",
-          text: "Visitar uma exposição "
+          text: "Visitar uma exposição ",
+          checked: false
         },
         {
           value: "B",
-          text: "Assistir a um espetáculo musical "
+          text: "Assistir a um espetáculo musical ",
+          checked: false
         },
         {
           value: "C",
-          text: "Brincar num parque de diversões"
+          text: "Brincar num parque de diversões",
+          checked: false
         }
       ]
     }

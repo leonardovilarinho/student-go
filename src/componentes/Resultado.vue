@@ -63,7 +63,7 @@
 				</div>
 
 				<b-button size="sm" variant="success" @click="enviar">
-					Enviar resultado
+					Enviar resultado para o IFTM
 				</b-button>
 				<b-button size="sm" variant="success" @click="reiniciar">
 					Reiniciar teste
@@ -74,6 +74,7 @@
 </template>
 <script>
 import SgCard from './Card.vue'
+import Mail from '../servicos/mail'
 
 export default{
 	name: 'sg-resultado',
@@ -112,7 +113,10 @@ export default{
 		enviar() {
 			if(this.nome != '' && this.email != '') {
 				let corpo = `${this.nome} com o email ${this.email} fez o teste e foi captado o resultado: ${this.resultado}`
-				window.open(`mailto:reane@iftm.edu.br?subject=Resultado Questionário - Perfil Aluno&body=${corpo}`);
+				Mail.enviar({email: this.email, nome: this.nome, msg: this.resultado}).then(r => {
+					if(r.sucesso)
+						alert('Email foi enviado');
+				})
 			}
 		}
 	}

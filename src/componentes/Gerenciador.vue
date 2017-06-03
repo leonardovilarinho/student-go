@@ -7,7 +7,7 @@
 				</p>
 
 				<div>
-					<b-form-radio v-model="resposta" :items="pergunta.alternativas" stacked returnObject />
+					<sg-form-radio v-model="resposta" :items="pergunta.alternativas" stacked returnObject ref="radio"/>
 				</div>
 
 				<b-button size="sm" variant="success" @click="responder">
@@ -19,10 +19,11 @@
 </template>
 <script>
 import SgCard from './Card.vue'
+import SgFormRadio from './FormRadio.vue'
 
 export default{
 	name: 'sg-gerenciador',
-	components: {SgCard},
+	components: {SgCard, SgFormRadio},
 	data() {
 		return {
 			pergunta: {},
@@ -51,7 +52,8 @@ export default{
 					'responde',
 					this.resposta.value
 				)
-
+				this.$refs['radio'].desmarcar();
+				
 				this.proxima()
 			}
 		},
