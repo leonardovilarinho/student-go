@@ -55,6 +55,11 @@ if(isset($_POST['email']) and isset($_POST['msg'])) {
 
 	$enviaremail = mail($destino, $assunto, $msg, $headers);
 
+
+	if($enviaremail)
+		die( json_encode(['sucesso' => true, 'teste1']) );
+	else
+		die( json_encode(['sucesso' => false, 'teste1']) );
 }
 
 if(isset($_POST['msg'])) {
@@ -72,12 +77,13 @@ if(isset($_POST['msg'])) {
 	$msg = 'Usuário ' . $nome . ' - ' . $email . ' respondeu o questionário e obteu a resposta:<br>' . $_POST['msg'];
 
 	$enviaremail = mail($destino, $assunto, $msg, $headers);
+
+
+	if($enviaremail)
+		die( json_encode(['sucesso' => true, 'teste2']) );
+	else
+		die( json_encode(['sucesso' => false, 'teste2']) );
 		
 }
 
 
-
-if($enviaremail)
-	die( json_encode(['sucesso' => true]) );
-else
-	die( json_encode(['sucesso' => false]) );
